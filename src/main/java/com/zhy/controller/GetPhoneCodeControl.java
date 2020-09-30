@@ -17,11 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: zhangocean
- * @Date: 2018/6/4 15:03
- * Describe: 注册获得手机验证码
- */
+
 @RestController
 @Slf4j
 public class GetPhoneCodeControl {

@@ -3,11 +3,7 @@ package com.zhy.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-/**
- * @author: zhangocean
- * @Date: 2018/6/7 17:09
- * Describe: 错误页面跳转
- */
+
 @Controller
 public class ErrorPageControl {
 

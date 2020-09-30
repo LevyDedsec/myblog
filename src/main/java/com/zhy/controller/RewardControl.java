@@ -10,11 +10,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: zhangocean
- * @Date: 2019/7/14 15:42
- * Describe:
- */
+
 @RestController
 @Slf4j
 public class RewardControl {

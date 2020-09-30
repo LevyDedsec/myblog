@@ -13,11 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: zhangocean
- * @Date: 2018/6/8 9:24
- * Describe: 登录控制
- */
+
 @RestController
 @Slf4j
 public class LoginControl {

@@ -22,7 +22,7 @@
             '<i class="am-icon-folder"> <a class="articleCategoryColor" href="/categories?category=' + data.articleCategories + '">' + data.articleCategories + '</a></i>' +
             '</div>' +
             '</div></article-top><div class="article-i-say">' +
-            '多年以后，愿你的城市，有清风，有烈酒，也有人是你的归途。<span class="article-i-say-me">--- 张海洋</span>' +
+            '浩淼宇宙，为何我们在此相遇。<span class="article-i-say-me">--- 袁龙飞</span>' +
             '</div>');
         $('.zhy-article-top').append(articleTop);
         $("#mdText").text(data.articleContent);
@@ -105,7 +105,7 @@
             $('.likeHeart').find('i').removeClass("am-icon-heart-o");
             $('.likeHeart').find('i').addClass("am-icon-heart");
         }
-        $('.other').append($('<div class="social-share" data-initialized="true" data-url="https://www.zhyocean.cn/article/' + data.articleId  + '"  data-title="' + data.articleTitle + '">' +
+        $('.other').append($('<div class="social-share" data-initialized="true" data-url="https://www.66666.cn/article/' + data.articleId  + '"  data-title="' + data.articleTitle + '">' +
             '<a href="#" class="social-share-icon icon-qq" data-am-popover="{content: \'分享至QQ好友\', trigger: \'hover focus\'}"></a>' +
             '<a href="#" class="social-share-icon icon-qzone" data-am-popover="{content: \'分享至QQ空间\', trigger: \'hover focus\'}"></a>' +
             '<a href="#" class="social-share-icon icon-wechat"></a>' +

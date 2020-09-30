@@ -14,11 +14,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author: zhangocean
- * @Date: 2018/7/17 20:50
- * Describe: 分类
- */
 @RestController
 @Slf4j
 public class CategoriesControl {
